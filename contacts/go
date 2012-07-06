@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+require('jasmine-node/lib/jasmine-node/cli.js');

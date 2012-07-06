@@ -1,0 +1,41 @@
+[{
+	"title": "Person Tests",
+	"source": "test/persontests.js",
+	"testFunction": "PersonTests"
+}, {
+	"title": "Stringify Tests",
+	"source": "test/stringifytests.js",
+	"testFunction": "StringifyTests"
+}, {
+	"title": "Contact Tests",
+	"source": "test/contacttests.js",
+	"testFunction": "ContactTests"
+}, {
+	"title": "Favorite Tests",
+	"source": "test/favoritetests.js",
+	"testFunction": "FavoriteTests"
+}, {
+	"title": "Finger Walker Sorter Tests",
+	"source": "test/fingerwalkersortertests.js",
+	"testFunction": "FingerWalkerSorterTests"
+}, {
+	"title": "Perf Tests",
+	"source": "test/PerfTests.js",
+	"testFunction": "test/PerfTests"
+}, {
+	"title": "Property Tests",
+	"source": "test/propertyTests.js",
+	"testFunction": "PropertyTests"
+}, {
+	"title": "Sort Key Tests",
+	"source": "test/SortKeyTests.js",
+	"testFunction": "SortKeyTests"
+}, {
+	"title": "Speed Dial Saver Tests",
+	"source": "test/SpeedDialSaverTests.js",
+	"testFunction": "SpeedDialSaverTests"
+}, {
+	"title": "vCard Tests",
+	"source": "test/vcardtests.js",
+	"testFunction": "vCardTests"
+}]

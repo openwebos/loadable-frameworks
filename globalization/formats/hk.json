@@ -1,0 +1,184 @@
+{
+	"address": {
+		"multiformat": true,
+		"formats": {
+			"default": {
+				"asian": "#{country}#{locality}#{streetAddress}",
+				"latin": "#{streetAddress}\n#{locality}\n#{country}"
+			},
+			"nocountry": {
+				"asian": "#{locality}#{streetAddress}#{postalCode}",
+				"latin": "#{streetAddress}\n#{locality}"
+			}
+		},
+		"startAt": {
+			"latin": "end",
+			"asian": "beginning"
+		},
+		"fields": {
+			"latin": [
+				{
+					"name": "locality",
+					"line": "last",
+					"pattern": [
+						"victoria city", 
+						"victoria harbour", 
+						"victoria",
+						"kowloon", 
+						"jiǔlóng",
+						"jiulong",
+						"causeway bay",
+						"tsuen wan", 
+						"quánwān qū",
+						"quanwan qu",
+						"sha tin",
+						"ma on shan",
+						"tuen mun", 
+						"túnmén xīn shìzhèn",
+						"tunmen xin shizhen", 
+						"túnmén",
+						"tunmen",
+						"tai po",
+						"tai gu", 
+						"dàpǔ xīn shìzhèn",
+						"dapu xin shizhen", 
+						"dàpǔ",
+						"dapu",
+						"yuen long", 
+						"yuánlǎng",
+						"yuanlang",
+						"fanling-sheung shui", 
+						"shàngshuǐ xīn shìzhèn",
+						"shangshui xin shizhen", 
+						"shàngshuǐ",
+						"shangshui",
+						"tseung kwan o", 
+						"jiangjun'ao xin shizhen", 
+						"jiangjun'ao",
+						"tin shui wai",
+						"north lantau",
+						"tung chung",
+						"tai ho",
+						"aberdeen",
+						"cheung chau",
+						"discovery bay",
+						"jardine's lookout",
+						"kennedy town",
+						"kwun tong", 
+						"guāntáng",
+						"guantang",
+						"lei yue mun",
+						"ma wan",
+						"mui wo", 
+						"méiwō",
+						"meiwo",
+						"silvermine bay",
+						"peng chau",
+						"sai kung", 
+						"xīgòng shì",
+						"xigong shi",
+						"xīgòng",
+						"xigong",
+						"sha tau kok",
+						"shek o",
+						"sok kwu wan",
+						"stanley",
+						"tai o",
+						"yuen long town", 
+						"yuánlǎng shìzhōngxīn",
+						"yuanlang shizhongxin", 
+						"yuánlǎng",
+						"yuanlang",
+						"yung shue wan", 
+						"banyan bay",
+						"hong kong",
+						"xiānggǎng",
+						"xianggang",
+						"quarry bay"
+					]
+				}
+			],
+			"asian": [
+				{
+					"name": "locality",
+					"line": "startAtFirst",
+					"pattern": "(^\\S{1,5}[市鎮鄉城]|hong kong|xiānggǎng|xianggang)"
+				}
+			]
+		}
+	},
+	"phoneNumberFormats": {
+		"region":"hk",
+		"countryCode":"852",
+		"iddCode":"001",
+		"dialingPlan":"closed",
+		"skipTrunk": false,
+		"findExtensions": false,
+		"commonFormatChars": " ()-/",
+		"fieldLengths": {
+			"mobilePrefix": 1,
+			"serviceCode": 1,
+			"premium": 0,
+			"minLocalLength": 7,
+			"maxLocalLength": 8,
+			"emergency": 0
+		},
+		"styles": {
+			"international": {
+				"iddPrefix":        ["X", "XX ", "XXX "],
+				"emergency":         "XXX ",
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"mobilePrefix":      "X",
+				"serviceCode":       "X",
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXX X", "XXXX XX", "XXXX XXX", "XXXX XXXX"]
+			},
+			"mobile": {
+				"iddPrefix":        ["X", "XX ", "XXX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "",
+				"emergency":         "XXX ",
+				"mobilePrefix":      "X",
+				"serviceCode":       "X",
+				"subscriberNumber": ["X", "XX", "XXX", "XXX X", "XXX XX", "XXX XXX", "XXX XXXX", "XXXX XXXX"]
+			},
+			"service": {
+				"iddPrefix":        ["X", "XX ", "XXX "],
+				"trunkAccess":       "",
+				"emergency":         "XXX ",
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"serviceCode":       "X",
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"]
+			},
+			"internationalmobile": {
+				"iddPrefix":        ["X", "XX ", "XXX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "",
+				"emergency":         "XXX ",
+				"mobilePrefix":      "X",
+				"serviceCode":       "X",
+				"subscriberNumber": ["X", "XX", "XXX", "XXX X", "XXX XX", "XXX XXX", "XXX XXXX", "XXXX XXXX"]
+			},
+			"default": {
+				"example":           "2123 4567",
+				"whole": {
+					"iddPrefix":        ["X", "XX ", "XXX "],
+					"trunkAccess":       "",
+					"emergency":         "XXX ",
+					"mobilePrefix":      "X",
+					"countryCode":      ["X ", "XX ", "XXX "],
+					"serviceCode":       "X",
+					"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"]
+				},
+				"partial": {
+					"iddPrefix":        ["X", "XX ", "XXX "],
+					"trunkAccess":       "",
+					"emergency":         "XXX ",
+					"mobilePrefix":      "X",
+					"countryCode":      ["X ", "XX ", "XXX "],
+					"serviceCode":       "X",
+					"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXX X", "XXXX XX", "XXXX XXX", "XXXX XXXX"]
+				}
+			}
+		}	 
+	}
+}

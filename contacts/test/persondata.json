@@ -1,0 +1,98 @@
+{
+	"small_person": {
+		"displayName": "Dr. Evil",
+		"contactIds": ["aa4"],
+		"names": [{
+			"honorificPrefix": "Dr.",
+			"givenName": "",
+			"middleName": "",
+			"familyName": "Evil",
+			"honorificSuffix": ""
+		}]
+	},
+	"medium_person": {
+		"displayName": "Austin D. Powers",
+		"contactIds": ["aa4", "aa5"],
+		"names": [{
+			"honorificPrefix": "",
+			"givenName": "Austin",
+			"middleName": "D.",
+			"familyName": "Powers",
+			"honorificSuffix": ""
+		}],
+		"emails": [{
+			"value": "therealjohndoe543@gmail.com",
+			"type": null,
+			"primary": false,
+			"normalizedValue": "therealjohndoe543@gmail.com"
+		}],
+		"phoneNumbers": [{
+			"value": "4441231234",
+			"type": "mobile",
+			"isPrimary": true,
+			"normalizedValue": "-4321321-444--"
+		}],
+		"ims": [{
+			"value": "therealjohndoe543",
+			"type": "type_gtalk",
+			"primary": false,
+			"normalizedValue": "therealjohndoe543"
+		}]
+	},
+	"large_person": {
+		"displayName": "Mr. Austin Danger Powers Jr",
+		"contactIds": ["aa1", "aa2", "aa3"],
+		"name": {
+			"honorificPrefix": "",
+			"givenName": "Austin",
+			"middleName": "D.",
+			"familyName": "Powers",
+			"honorificSuffix": ""
+		},
+		"names": [{
+			"honorificPrefix": "Mr",
+			"givenName": "Austin",
+			"middleName": "Danger",
+			"familyName": "Powers",
+			"honorificSuffix": "Jr"
+		}],
+		"emails": [{
+			"value": "therealjohndoe543@gmail.com",
+			"type": "type_home",
+			"primary": false,
+			"normalizedValue": "therealjohndoe543@gmail.com"
+		}, {
+			"value": "willtestforfood@yahoo.com",
+			"type": null,
+			"primary": true,
+			"normalizedValue": "willtestforfood@yahoo.com"
+		}],
+		"phoneNumbers": [{
+			"value": "(444) 123-1234",
+			"type": "type_mobile",
+			"isPrimary": true,
+			"normalizedValue": "-4321321-444--"
+		}, {
+			"value": "222-789-7890",
+			"type": "type_home",
+			"isPrimary": false,
+			"normalizedValue": "-0987987-222--"
+		}, {
+			"value": "333.654.6543",
+			"type": "type_work",
+			"isPrimary": false,
+			"normalizedValue": "-3456456-333--"
+		}],
+		"ims": [{
+			"value": "therealjohndoe543",
+			"type": "type_gtalk",
+			"primary": false,
+			"normalizedValue": "therealjohndoe543"
+		}, {
+			"value": "willtestforfood",
+			"type": "type_yahoo",
+			"primary": true,
+			"normalizedValue": "willtestforfood"
+		}]
+	}
+}
