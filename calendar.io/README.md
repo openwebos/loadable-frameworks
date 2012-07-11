@@ -19,4 +19,4 @@ limitations under the License.
 
 Quick Info
 
-Calendat IO library for webOS.
+Calendar IO library for webOS.
