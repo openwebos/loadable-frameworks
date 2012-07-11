@@ -1,0 +1,24 @@
+{
+	"files":
+	{
+		"javascript":
+		[
+			"prologue.js",
+			"import.js",
+			"import_alarm.js",
+			"import_attendees.js",
+			"import_event.js",
+			"import_rrule.js",
+			"stringify.js",
+			"transform.js",
+			"transform_alarm.js",
+			"transform_attendees.js",
+			"transform_event.js",
+			"transform_rrule.js",
+			"transform_timezones.js",
+			"underscore.js",
+			"utils.js",
+			"epilogue.js"
+		]
+	}
+}

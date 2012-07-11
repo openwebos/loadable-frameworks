@@ -1,0 +1,14 @@
+{	
+	"files":
+	{	
+		"javascript":
+		[	"prologue.js"
+		,	"datejs/date.js"
+		,	"utils.js"
+		,	"timezone-manager.js"
+		,	"rrule-manager.js"
+		,	"event-manager.js"
+		,	"epilogue.js"
+		]
+	}
+}
