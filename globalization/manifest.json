@@ -1,0 +1,21 @@
+{
+	"files":
+	{
+		"javascript": [
+		    "globalization.js",
+		    "resources.js",
+		    "locale.js",
+		    "char.js",
+		    "phone.js",
+		    "address.js",
+		    "format.js",
+		    "format_phonenumber.js",
+		    "name.js",
+		    "utils.js"
+		],
+		"formats": "*",
+		"langinfo": "*"
+	},
+	"builtinReady": true,
+	"builtinDeferred": true
+}

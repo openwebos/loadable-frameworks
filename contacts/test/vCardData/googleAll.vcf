@@ -1,0 +1,68 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Test vCard
+N:vCard;Test;;;
+NICKNAME:Testy McVCard
+EMAIL;TYPE=INTERNET;TYPE=HOME:testEmailH@email.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:testEmailW@email.com
+EMAIL;TYPE=INTERNET:testEmailO@email.com
+X-GTALK:gIM@gtak.com
+X-AIM:aol
+X-YAHOO:someyah
+X-ICQ:whoUsesISeeQ
+X-SKYPE:weeSkyweePe
+X-QQ:idontknowthisonequeque
+X-MSN:ahhmgoodoldsn
+X-JABBER:jibberajabbar
+TEL;TYPE=HOME;TYPE=FAX:5555555555
+TEL;TYPE=WORK;TYPE=FAX:6666666666
+TEL;TYPE=PAGER:7777777777
+TEL:8888888888
+TEL;TYPE=HOME:9999999999
+TEL;TYPE=CELL:2222222222
+TEL;TYPE=WORK:3333333333
+ADR;TYPE=HOME:;This is my house address;;;;;
+ADR;TYPE=WORK:;This is my work address;;;;;
+ADR:;This is my other address;;;;;
+ORG:His Company
+TITLE:His title
+BDAY:1970-06-10
+URL;TYPE=HOME:www.myhouse.com
+URL;TYPE=WORK:www.mywork.com
+item1.URL:www.myhousepage.com
+item1.X-ABLabel:_$!<HomePage>!$_
+item2.URL:www.mybl.com
+item2.X-ABLabel:BLOG
+item3.X-ABDATE:1908-04-04
+item3.X-ABLabel:_$!<Anniversary>!$_
+X-ABDATE:1907-06-12
+item4.X-ABRELATEDNAMES:mySouse
+item4.X-ABLabel:_$!<Spouse>!$_
+item5.X-ABRELATEDNAMES:mychild
+item5.X-ABLabel:_$!<Child>!$_
+item6.X-ABRELATEDNAMES:mymother
+item6.X-ABLabel:_$!<Mother>!$_
+item7.X-ABRELATEDNAMES:myfather
+item7.X-ABLabel:_$!<Father>!$_
+item8.X-ABRELATEDNAMES:myparent
+item8.X-ABLabel:_$!<Parent>!$_
+item9.X-ABRELATEDNAMES:mybrother
+item9.X-ABLabel:_$!<Brother>!$_
+item10.X-ABRELATEDNAMES:mysister
+item10.X-ABLabel:_$!<Sister>!$_
+item11.X-ABRELATEDNAMES:myfriend
+item11.X-ABLabel:_$!<Friend>!$_
+item12.X-ABRELATEDNAMES:myrelative
+item12.X-ABLabel:RELATIVE
+item13.X-ABRELATEDNAMES:myDP
+item13.X-ABLabel:DOMESTIC_PARTNER
+item14.X-ABRELATEDNAMES:myManager
+item14.X-ABLabel:_$!<Manager>!$_
+item15.X-ABRELATEDNAMES:myassistant
+item15.X-ABLabel:_$!<Assistant>!$_
+item16.X-ABRELATEDNAMES:myPartner
+item16.X-ABLabel:_$!<Partner>!$_
+item17.X-ABRELATEDNAMES:myRefference
+item17.X-ABLabel:REFERRED_BY
+NOTE:Look at me I'm a note\ncostomLabal: wowCostom
+END:VCARD

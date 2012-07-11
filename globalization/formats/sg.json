@@ -1,0 +1,98 @@
+{
+	"address": {
+		"multiformat": true,
+		"formats": {
+			"default": {
+				"latin": "#{streetAddress}\n#{locality} #{postalCode}\n#{country}",
+				"asian": "#{country}#{postalCode}#{locality}#{streetAddress}"
+			},
+			"nocountry": {
+				"asian": "#{postalCode}#{locality}#{streetAddress}",
+				"latin": "#{streetAddress}\n#{locality} #{postalCode}"
+			}
+		},
+		"startAt": {
+			"latin": "end",
+			"asian": "beginning"
+		},
+		"fields": {
+			"latin": [
+				{
+					"name": "postalCode",
+					"line": "startAtLast",
+					"pattern": "[0-9]{6}"
+				},
+				{
+					"name": "locality",
+					"line": "last",
+					"pattern": "[Ss][Ii][Nn][Gg][Aa][Pp][Oo][Rr][Ee]$"
+				}
+			],
+			"asian": [
+				{
+					"name": "postalCode",
+					"line": "startAtLast",
+					"pattern": "^[0-9]{6}"
+				},
+				{
+					"name": "locality",
+					"line": "startAtFirst",
+					"pattern": "^新加坡",
+					"matchGroup": 0
+				}
+			]
+		}
+	},
+	"phoneNumberFormats": {
+		"region": "sg",
+		"skipTrunk": false,
+		"trunkCode": "0",
+		"iddCode": "00",
+		"dialingPlan": "closed",
+		"findExtensions": false,
+		"commonFormatChars": " ()-/",
+		"fieldLengths": {
+			"mobilePrefix": -2,
+			"serviceCode": 0,
+			"premium": 0,
+			"minLocalLength": 8,
+			"emergency": 0
+		},
+		"styles": {
+			"international": {
+				"iddPrefix":        ["X", "XX ", "XXX "],
+				"emergency":         "XXX ",
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X", "XX ", "XXX ", "XXXX "],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXX X", "XXXX XX", "XXXX XXX", "XXXX XXXX"]
+			},
+			"service": {
+				"iddPrefix":        ["X", "XX ", "XXX "],
+				"trunkAccess":       "",
+				"emergency":         "XXX ",
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X ", "XX ", "XXX ", "XXXX ", "XXXXX "],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"]
+			},
+			"default": {
+				"example":           "6123 4567",
+				"whole": {
+					"iddPrefix":        ["X", "XX ", "XXX "],
+					"trunkAccess":       "",
+					"emergency":         "XXX ",
+					"countryCode":      ["X ", "XX ", "XXX "],
+					"serviceCode":      ["X ", "XX ", "XXX ", "XXXX ", "XXXXX "],
+					"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XX XXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"]
+				},
+				"partial": {
+					"iddPrefix":        ["X", "XX ", "XXX "],
+					"trunkAccess":       "",
+					"emergency":         "XXX ",
+					"countryCode":      ["X ", "XX ", "XXX "],
+					"serviceCode":      ["X ", "XX ", "XXX ", "XXXX ", "XXXXX "],
+					"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXX X", "XXXX XX", "XXXX XXX", "XXXX XXXX"]
+				}
+			}
+		}
+	}
+}

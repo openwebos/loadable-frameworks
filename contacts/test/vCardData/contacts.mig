@@ -1,0 +1,55 @@
+BEGIN:vCard
+VERSION:3.0
+UID:0
+FN:Alcatraz
+N:Alcatraz
+TEL;TYPE=WORK:408.503.0250
+CLASS:PUBLIC
+TITLE:Location: 2.2.004\nCapacity: 9\nPolyCom: No
+CATEGORIES:Unfiled
+END:vCard
+
+BEGIN:vCard
+VERSION:3.0
+UID:1
+FN:Asteroids
+N:;Asteroids
+TEL;TYPE=WORK:408.503.0470
+CLASS:PUBLIC
+TITLE:Location: 3.2.001\nCapacity: 12\nPolyCom: Yes
+CATEGORIES:Unfiled
+END:vCard
+
+BEGIN:vCard
+VERSION:3.0
+UID:2
+FN:Azkaban
+N:Azkaban
+TEL;TYPE=WORK:408.503.6140
+CLASS:PUBLIC
+TITLE:Location: 2.2.001\nCapacity: 12\nPolyCom: Yes
+CATEGORIES:Unfiled
+END:vCard
+
+BEGIN:vCard
+VERSION:3.0
+UID:3
+FN:Azkaban
+N:;Azkaban
+TEL;TYPE=WORK:408.503.6140
+CLASS:PUBLIC
+TITLE:Location: 2.2.001\nCapacity: 12\nPolyCom: Yes
+CATEGORIES:Unfiled
+END:vCard
+
+BEGIN:vCard
+VERSION:3.0
+UID:4
+FN:Batman
+N:Batman
+TEL;TYPE=WORK:408.503.0220
+CLASS:PUBLIC
+TITLE:Location: 4.2.001\nCapacity: 12\nPolyCom: Yes
+CATEGORIES:Unfiled
+END:vCard
+

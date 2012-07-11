@@ -1,0 +1,113 @@
+{
+	"address": {
+		"formats": {
+			"default": "#{streetAddress}\n#{locality} #{postalCode}\n#{region}\n#{country}",
+			"nocountry": "#{streetAddress}\n#{locality} #{postalCode}\n#{region}"
+		},
+		"startAt": "end",
+		"fields": [
+			{
+				"name": "postalCode",
+				"line": "startAtLast",
+				"pattern": "(D?[0-9]{1,2}W?)$",
+				"matchGroup": 1
+			},
+			{
+				"name": "region",
+				"line": "startAtLast",
+				"pattern": "(([Cc]ounty|[Cc]ontae|[Cc]o)[\\-\\.:;]?\\s+([A-zÁÉÍÓÚáéíóú\\.\\-' ]+))$",
+				"matchGroup": 0
+			},
+			{
+				"name": "locality",
+				"line": "last",
+				"pattern": "[A-zÁÉÍÓÚáéíóú\\.\\-']+$"
+			}
+		]
+	},
+	"phoneNumberFormats": {
+		"region": "ie",
+		"skipTrunk": true,
+		"trunkCode": "0",
+		"iddCode": "00",
+		"dialingPlan": "open",
+		"commonFormatChars": " ()-",
+		"fieldLengths": {
+			"areaCode": 0,
+			"cic": 0,
+			"mobilePrefix": 0,
+			"emergency": 0,
+			"serviceCode": 0,
+			"minLocalLength": 5,
+			"premium": 0
+		},
+		"styles": {
+			"international": {
+				"iddPrefix":        ["X", "XX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "",
+				"mobilePrefix":     ["X", "XX "],
+				"emergency":        ["X", "XX", "XXX", "XXXX", "XXXXX", "XXXXXX"],
+				"areaCode":         ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X", "XX ", "XXX ", "XXXX ", "XXXXX " ],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"],
+				"extension":        [" X", " XX", " XXX", " XXXX", " XXXXX", " XXXXXX", " XXXXXXX"]
+			},
+			"mobile": {
+				"iddPrefix":        ["X", "XX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "X",
+				"mobilePrefix":     ["X", "XX "],
+				"emergency":        ["X", "XX", "XXX", "XXXX", "XXXXX", "XXXXXX"],
+				"areaCode":         ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X", "XX ", "XXX ", "XXXX ", "XXXXX " ],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXX XX", "XXX XXX", "XXX XXXX", "XXXX XXXX"],
+				"extension":        [" X", " XX", " XXX", " XXXX", " XXXXX", " XXXXXX", " XXXXXXX"]
+			}, 
+			"internationalmobile": {
+				"iddPrefix":        ["X", "XX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "",
+				"mobilePrefix":     ["X", "XX "],
+				"emergency":        ["X", "XX", "XXX", "XXXX", "XXXXX", "XXXXXX"],
+				"areaCode":         ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X", "XX ", "XXX ", "XXXX ", "XXXXX " ],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXX XX", "XXX XXX", "XXX XXXX", "XXXX XXXX"],
+				"extension":        [" X", " XX", " XXX", " XXXX", " XXXXX", " XXXXXX", " XXXXXXX"]
+			},
+			"service": {
+				"iddPrefix":        ["X", "XX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "X",
+				"mobilePrefix":     ["X", "XX "],
+				"emergency":        ["X", "XX", "XXX", "XXXX", "XXXXX", "XXXXXX"],
+				"areaCode":         ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X", "XX ", "XXX ", "XXXX ", "XXXXX " ],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"],
+				"extension":        [" X", " XX", " XXX", " XXXX", " XXXXX", " XXXXXX", " XXXXXXX"]
+			},
+			"default": {
+				"example":           "(01) 123 4567",
+				"iddPrefix":        ["X", "XX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "(X",
+				"emergency":        ["X", "XX", "XXX", "XXXX", "XXXXX", "XXXXXX"],
+				"areaCode":         ["X) ", "XX) ", "XXX) "],
+				"serviceCode":      ["X ", "XX ", "XXX ", "XXXX "],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"],
+				"extension":        [" X", " XX", " XXX", " XXXX", " XXXXX", " XXXXXX", " XXXXXXX"]
+			},
+			"spaces": {
+				"example":           "01 123 4567",
+				"iddPrefix":        ["X", "XX "],
+				"countryCode":      ["X ", "XX ", "XXX "],
+				"trunkAccess":       "X",
+				"emergency":        ["X", "XX", "XXX", "XXXX", "XXXXX", "XXXXXX"],
+				"areaCode":         ["X ", "XX ", "XXX "],
+				"serviceCode":      ["X ", "XX ", "XXX ", "XXXX "],
+				"subscriberNumber": ["X", "XX", "XXX", "XXXX", "XXXXX", "XXX XXX", "XXX XXXX", "XXXX XXXX"],
+				"extension":        [" X", " XX", " XXX", " XXXX", " XXXXX", " XXXXXX", " XXXXXXX"]
+			}
+		}
+	}
+}

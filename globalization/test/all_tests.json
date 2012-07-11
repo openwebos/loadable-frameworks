@@ -1,0 +1,312 @@
+[
+	{
+		"title": "Locale Tests",
+		"source": "test/locale_tests.js",
+		"testFunction": "LocaleTests"
+	},
+	{
+		"title": "Phone Number Tests",
+		"source": "test/phone_tests.js",
+		"testFunction": "PhoneNumberTests"
+	},
+	{
+		"title": "Phone Parse Tests CN",
+		"source": "test/phone_parse_tests_cn.js",
+		"testFunction": "PhoneParseTestsCN"
+	},
+	{
+		"title": "Phone Parse Tests DE",
+		"source": "test/phone_parse_tests_de.js",
+		"testFunction": "PhoneParseTestsDE"
+	},
+	{
+		"title": "Phone Parse Tests ES",
+		"source": "test/phone_parse_tests_es.js",
+		"testFunction": "PhoneParseTestsES"
+	},
+	{
+		"title": "Phone Parse Tests FR",
+		"source": "test/phone_parse_tests_fr.js",
+		"testFunction": "PhoneParseTestsFR"
+	},
+	{
+		"title": "Phone Parse Tests GB",
+		"source": "test/phone_parse_tests_gb.js",
+		"testFunction": "PhoneParseTestsGB"
+	},
+	{
+		"title": "Phone Parse Tests IE",
+		"source": "test/phone_parse_tests_ie.js",
+		"testFunction": "PhoneParseTestsIE"
+	},
+	{
+		"title": "Phone Parse Tests IN",
+		"source": "test/phone_parse_tests_in.js",
+		"testFunction": "PhoneParseTestsIN"
+	},
+	{
+		"title": "Phone Parse Tests IT",
+		"source": "test/phone_parse_tests_it.js",
+		"testFunction": "PhoneParseTestsIT"
+	},
+	{
+		"title": "Phone Parse Tests MX",
+		"source": "test/phone_parse_tests_mx.js",
+		"testFunction": "PhoneParseTestsMX"
+	},
+	{
+		"title": "Phone Parse Tests US",
+		"source": "test/phone_parse_tests_us.js",
+		"testFunction": "PhoneParseTestsUS"
+	},
+	{
+		"title": "Phone Parse Tests BE",
+		"source": "test/phone_parse_tests_be.js",
+		"testFunction": "PhoneParseTestsBE"
+	},
+	{
+		"title": "Phone Parse Tests NL",
+		"source": "test/phone_parse_tests_nl.js",
+		"testFunction": "PhoneParseTestsNL"
+	},
+	{
+		"title": "Phone Parse Tests LU",
+		"source": "test/phone_parse_tests_lu.js",
+		"testFunction": "PhoneParseTestsLU"
+	},
+	{
+		"title": "Phone Parse Tests AU",
+		"source": "test/phone_parse_tests_au.js",
+		"testFunction": "PhoneParseTestsAU"
+	},
+	{
+		"title": "Phone Parse Tests SG",
+		"source": "test/phone_parse_tests_sg.js",
+		"testFunction": "PhoneParseTestsSG"
+	},
+	{
+		"title": "Phone Parse Tests NZ",
+		"source": "test/phone_parse_tests_nz.js",
+		"testFunction": "PhoneParseTestsNZ"
+	},
+	{
+		"title": "Phone Parse Tests HK",
+		"source": "test/phone_parse_tests_hk.js",
+		"testFunction": "PhoneParseTestsHK"
+	},
+	{
+		"title": "Phone Format Tests DE",
+		"source": "test/phone_format_tests_de.js",
+		"testFunction": "PhoneFormatTestsDE"
+	},
+	{
+		"title": "Phone Format Tests ES",
+		"source": "test/phone_format_tests_es.js",
+		"testFunction": "PhoneFormatTestsES"
+	},
+	{
+		"title": "Phone Format Tests FR",
+		"source": "test/phone_format_tests_fr.js",
+		"testFunction": "PhoneFormatTestsFR"
+	},
+	{
+		"title": "Phone Format Tests GB",
+		"source": "test/phone_format_tests_gb.js",
+		"testFunction": "PhoneFormatTestsGB"
+	},
+	{
+		"title": "Phone Format Tests IE",
+		"source": "test/phone_format_tests_ie.js",
+		"testFunction": "PhoneFormatTestsIE"
+	},
+	{
+		"title": "Phone Format Tests IN",
+		"source": "test/phone_format_tests_in.js",
+		"testFunction": "PhoneFormatTestsIN"
+	},
+	{
+		"title": "Phone Format Tests IT",
+		"source": "test/phone_format_tests_it.js",
+		"testFunction": "PhoneFormatTestsIT"
+	},
+	{
+		"title": "Phone Format Tests MX",
+		"source": "test/phone_format_tests_mx.js",
+		"testFunction": "PhoneFormatTestsMX"
+	},
+	{
+		"title": "Phone Format Tests US",
+		"source": "test/phone_format_tests_us.js",
+		"testFunction": "PhoneFormatTestsUS"
+	},
+	{
+		"title": "Phone Format Tests BE",
+		"source": "test/phone_format_tests_be.js",
+		"testFunction": "PhoneFormatTestsBE"
+	},
+	{
+		"title": "Phone Format Tests NL",
+		"source": "test/phone_format_tests_nl.js",
+		"testFunction": "PhoneFormatTestsNL"
+	},
+	{
+		"title": "Phone Format Tests LU",
+		"source": "test/phone_format_tests_lu.js",
+		"testFunction": "PhoneFormatTestsLU"
+	},
+	{
+		"title": "Phone Format Tests AU",
+		"source": "test/phone_format_tests_au.js",
+		"testFunction": "PhoneFormatTestsAU"
+	},
+	{
+		"title": "Phone Format Tests SG",
+		"source": "test/phone_format_tests_sg.js",
+		"testFunction": "PhoneFormatTestsSG"
+	},
+	{
+		"title": "Phone Format Tests NZ",
+		"source": "test/phone_format_tests_nz.js",
+		"testFunction": "PhoneFormatTestsNZ"
+	},
+	{
+		"title": "Phone Format Tests HK",
+		"source": "test/phone_format_tests_hk.js",
+		"testFunction": "PhoneFormatTestsHK"
+	},
+	{
+		"title": "Phone Number Reformatting Tests",
+		"source": "test/reformat_tests.js",
+		"testFunction": "ReformatTests"
+	},
+	{
+		"title": "Phone Number Normalize Tests",
+		"source": "test/normalize_tests.js",
+		"testFunction": "NormalizeTests"
+	},
+	{
+		"title": "Phone Number Geo Tests",
+		"source": "test/phone_geo_tests.js",
+		"testFunction": "PhoneGeoTests"
+	},
+	{
+		"title": "Address Tests",
+		"source": "test/address_tests.js",
+		"testFunction": "AddressTests"
+	},
+	{
+		"title": "Resources Tests",
+		"source": "test/resources_tests.js",
+		"testFunction": "ResourcesTests"
+	},
+	{
+		"title": "Name Tests",
+		"source": "test/name_tests.js",
+		"testFunction": "NameTests"
+	},
+	{
+		"title": "Name Tests EN",
+		"source": "test/name_tests_en.js",
+		"testFunction": "NameTestsEN"
+	},
+	{
+		"title": "Name Tests DE",
+		"source": "test/name_tests_de.js",
+		"testFunction": "NameTestsDE"
+	},
+	{
+		"title": "Name Tests ES",
+		"source": "test/name_tests_es.js",
+		"testFunction": "NameTestsES"
+	},
+	{
+		"title": "Name Tests ZH",
+		"source": "test/name_tests_zh.js",
+		"testFunction": "NameTestsZH"
+	},
+	{
+		"title": "Character Type Tests",
+		"source": "test/char_tests.js",
+		"testFunction": "CharTests"
+	},
+	{
+		"title": "IMSI Parse Tests",
+		"source": "test/imsi_tests.js",
+		"testFunction": "ImsiTests"
+	},
+	{
+		"title": "Address Tests NL",
+		"source": "test/address_tests_nl.js",
+		"testFunction": "AddressTestsNL"
+	},
+	{
+		"title": "Address Tests CA",
+		"source": "test/address_tests_ca.js",
+		"testFunction": "AddressTestsCA"
+	},
+	{
+		"title": "Address Tests DE",
+		"source": "test/address_tests_de.js",
+		"testFunction": "AddressTestsDE"
+	},
+	{
+		"title": "Address Tests FR",
+		"source": "test/address_tests_fr.js",
+		"testFunction": "AddressTestsFR"
+	},
+	{
+		"title": "Address Tests GB",
+		"source": "test/address_tests_gb.js",
+		"testFunction": "AddressTestsGB"
+	},
+	{
+		"title": "Address Tests IE",
+		"source": "test/address_tests_ie.js",
+		"testFunction": "AddressTestsIE"
+	},
+	{
+		"title": "Address Tests IT",
+		"source": "test/address_tests_it.js",
+		"testFunction": "AddressTestsIT"
+	},
+	{
+		"title": "Address Tests MX",
+		"source": "test/address_tests_mx.js",
+		"testFunction": "AddressTestsMX"
+	},
+	{
+		"title": "Address Tests ES",
+		"source": "test/address_tests_es.js",
+		"testFunction": "AddressTestsES"
+	},
+	{
+		"title": "Address Tests AU",
+		"source": "test/address_tests_au.js",
+		"testFunction": "AddressTestsAU"
+	},
+	{
+		"title": "Address Tests NZ",
+		"source": "test/address_tests_nz.js",
+		"testFunction": "AddressTestsNZ"
+	},
+	{
+		"title": "Address Tests SG",
+		"source": "test/address_tests_sg.js",
+		"testFunction": "AddressTestsSG"
+	},
+	{
+		"title": "Address Tests CN",
+		"source": "test/address_tests_cn.js",
+		"testFunction": "AddressTestsCN"
+	},
+	{
+		"title": "Address Tests TW",
+		"source": "test/address_tests_tw.js",
+		"testFunction": "AddressTestsTW"
+	},
+	{
+		"title": "Address Tests HK",
+		"source": "test/address_tests_hk.js",
+		"testFunction": "AddressTestsHK"
+	}
+]
