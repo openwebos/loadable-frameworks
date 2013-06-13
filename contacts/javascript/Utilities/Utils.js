@@ -1,6 +1,6 @@
 // LICENSE@@@
 //
-//      Copyright (c) 2009-2012 Hewlett-Packard Development Company, L.P.
+//      Copyright (c) 2009-2013 LG Electronics, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,7 +16,6 @@
 //
 // @@@LICENSE
 
-/* Copyright 2009 Palm, Inc.  All rights reserved. */
 /*jslint white: true, onevar: true, undef: true, eqeqeq: true, plusplus: true, bitwise: true,
 regexp: true, newcap: true, immed: true, nomen: false, maxerr: 500 */
 /*global _, exports, Assert, DisplayNameType, Person, Contact, RB, console, Future, Foundations,
